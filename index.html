@@ -189,10 +189,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2023-06-20 20:59:54 / 修改时间：21:45:18" itemprop="dateCreated datePublished" datetime="2023-06-20T20:59:54+08:00">2023-06-20</time>
+              <time title="创建时间：2023-06-20 20:59:54" itemprop="dateCreated datePublished" datetime="2023-06-20T20:59:54+08:00">2023-06-20</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-06-21 00:36:52" itemprop="dateModified" datetime="2023-06-21T00:36:52+08:00">2023-06-21</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -203,7 +209,9 @@
                 </span>
             </span>
 
-          <br>
+          
+  
+  <br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
@@ -229,7 +237,14 @@
 
       
           <p>李伟建</p>
-<h2 id="第一篇文章哦"><a href="#第一篇文章哦" class="headerlink" title="第一篇文章哦"></a>第一篇文章哦</h2>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2023/06/20/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%BF%83%E5%BE%97/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -488,6 +503,35 @@ $(document).ready(function() {
   
 
   
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'Z1rFbkjY6EAb5W1oLigqlN8A-gzGzoHsz',
+      appKey     : 'LCGNAuQTV0C37DKOS0spvYKf',
+      placeholder: "Just go go",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>

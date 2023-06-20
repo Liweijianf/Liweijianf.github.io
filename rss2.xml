@@ -9,7 +9,7 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>好好吃饭🍣 好好睡觉💤 敲敲代码💻 谈谈恋爱💑</description>
-    <pubDate>Tue, 20 Jun 2023 13:45:18 GMT</pubDate>
+    <pubDate>Tue, 20 Jun 2023 16:36:52 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -18,15 +18,11 @@
       <guid>http://example.com/2023/06/20/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%BF%83%E5%BE%97/</guid>
       <pubDate>Tue, 20 Jun 2023 12:59:54 GMT</pubDate>
       
-        
-        
-      <description>&lt;p&gt;李伟建&lt;/p&gt;
-&lt;h2 id=&quot;第一篇文章哦&quot;&gt;&lt;a href=&quot;#第一篇文章哦&quot; class=&quot;headerlink&quot; title=&quot;第一篇文章哦&quot;&gt;&lt;/a&gt;第一篇文章哦&lt;/h2&gt;</description>
-        
+      <description>&lt;p&gt;李伟建&lt;/p&gt;</description>
       
       
       
-      <content:encoded><![CDATA[<p>李伟建</p><h2 id="第一篇文章哦"><a href="#第一篇文章哦" class="headerlink" title="第一篇文章哦"></a>第一篇文章哦</h2>]]></content:encoded>
+      <content:encoded><![CDATA[<p>李伟建</p><span id="more"></span><h2 id="第一篇文章哦"><a href="#第一篇文章哦" class="headerlink" title="第一篇文章哦"></a>第一篇文章哦</h2>]]></content:encoded>
       
       
       <category domain="http://example.com/categories/%E5%89%8D%E7%AB%AF/">前端</category>
