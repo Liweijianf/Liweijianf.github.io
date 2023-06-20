@@ -9,7 +9,7 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>好好吃饭🍣 好好睡觉💤 敲敲代码💻 谈谈恋爱💑</description>
-    <pubDate>Tue, 20 Jun 2023 17:04:54 GMT</pubDate>
+    <pubDate>Tue, 20 Jun 2023 17:50:56 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -27,6 +27,8 @@
       
       <category domain="http://example.com/categories/%E5%89%8D%E7%AB%AF/">前端</category>
       
+      
+      <category domain="http://example.com/tags/%E6%97%A5%E5%B8%B8/">-日常</category>
       
       
     </item>
