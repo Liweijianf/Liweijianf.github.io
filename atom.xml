@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-06-21T11:02:04.652Z</updated>
+  <updated>2023-06-21T15:57:43.969Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,16 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>制作个人博客过程和出现问题2</title>
+    <link href="http://example.com/2023/06/21/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%982/"/>
+    <id>http://example.com/2023/06/21/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%982/</id>
+    <published>2023-06-21T15:28:13.000Z</published>
+    <updated>2023-06-21T15:57:43.969Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.绑定gitgub，使得本地文件和github可以传输文件<br>2.安装node.js和Hexo主题-next（喜欢用别的主题，可以去百度查一下，我是以next主题为例）</p><span id="more"></span><h3 id="第一步-绑定gitgub"><a href="#第一步-绑定gitgub" class="headerlink" title="第一步 绑定gitgub"></a>第一步 绑定gitgub</h3><h3 id="第二步-上传本地文件到github"><a href="#第二步-上传本地文件到github" class="headerlink" title="第二步 上传本地文件到github"></a>第二步 上传本地文件到github</h3><h3 id="第三步-安装nodejs"><a href="#第三步-安装nodejs" class="headerlink" title="第三步 安装nodejs"></a>第三步 安装nodejs</h3><p>点击进入<a href="https://nodejs.org/en" title="nodejs官网">nodejs官网</a><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%982/nodejs%E4%B8%8B%E8%BD%BD.png" alt="这是图片" title="nodejs下载.png"><br>直接点击下载，完成后双击安装，安装直接默认 next 就好，很简单，需要改的也就是安装位置改一下，我是在D盘新建了一个文件夹 nodejs，安装在这个文件夹里。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;1.绑定gitgub，使得本地文件和github可以传输文件&lt;br&gt;2.安装node.js和Hexo主题-next（喜欢用别的主题，可以去百度查一下，我是以next主题为例）&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="开发" scheme="http://example.com/categories/%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>制作个人博客过程和出现问题</title>
     <link href="http://example.com/2023/06/20/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/"/>
     <id>http://example.com/2023/06/20/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/</id>
     <published>2023-06-20T12:59:54.000Z</published>
-    <updated>2023-06-21T11:02:04.652Z</updated>
+    <updated>2023-06-21T15:57:00.499Z</updated>
     
-    <content type="html"><![CDATA[<p>以下是我自己做博客的详细过程，尽量写的简单一点，希望可以帮到自己回忆</p><span id="more"></span><h3 id="第一步-注册GitHub"><a href="#第一步-注册GitHub" class="headerlink" title="第一步 注册GitHub:"></a>第一步 注册GitHub:</h3><p><a href="https://github.com/" title="Github">Github官网</a><br>注册很简单，去浏览器搜索，只需要按照他的填，就能成功，听说别的浏览器不行，我这边用的是微软的浏览器，应该都能注册成功，然后就是绑定邮箱了，这里要注意！！！！我之前找很久都 没有找到settings,点击右上角头像就可以看到，进入设置界面（settings）后，点击Emails（邮箱）进行绑定。<br><img src="/images/%E9%82%AE%E7%AE%B1%E7%BB%91%E5%AE%9A.png" alt="这是图片" title="邮箱绑定"></p><h3 id="第二步-新建一个仓库"><a href="#第二步-新建一个仓库" class="headerlink" title="第二步 新建一个仓库:"></a>第二步 新建一个仓库:</h3><p>在Github的主页，右上角有个“+”，点击New repository<br><img src="/images/%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93.png" alt="这是图片" title="新建仓库"><br>博客框架版本:hexo 6.3.0<br>主题版本:next </p>]]></content>
+    <content type="html"><![CDATA[<p>以下是我自己做博客的详细过程，尽量写的简单一点，希望可以帮到自己回忆<br>博客框架版本:hexo 6.3.0<br>主题:next </p><span id="more"></span><h3 id="第一步-注册GitHub"><a href="#第一步-注册GitHub" class="headerlink" title="第一步 注册GitHub:"></a>第一步 注册GitHub:</h3><p>点击进入<a href="https://github.com/" title="Github">Github官网</a><br>注册很简单，去浏览器搜索，只需要按照他的填，就能成功，听说别的浏览器不行，我这边用的是微软的浏览器，应该都能注册成功，然后就是绑定邮箱了，这里要注意！！！！我之前找很久都 没有找到settings,点击右上角头像就可以看到，进入设置界面（settings）后，点击Emails（邮箱）进行绑定。<br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E9%82%AE%E7%AE%B1%E7%BB%91%E5%AE%9A.png" alt="这是图片" title="邮箱绑定"><br>在Github的主页，右上角有个“+”，点击New repository，可以创建一个仓库<br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93.png" alt="这是图片" title="创建仓库"><br>现在可以先不用创建，后面hexo绑定到GitHub后再创建</p><h3 id="第二步-安装git"><a href="#第二步-安装git" class="headerlink" title="第二步 安装git:"></a>第二步 安装git:</h3><p>点击进入<a href="https://git-scm.com/" title="git">git官网</a>，下载最新版版本的git，我现在用的是2.41.0版本的<br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit1.png" alt="这是图片" title="下载git1.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit2.png" alt="这是图片" title="下载git2.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit3.png" alt="这是图片" title="下载git3.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit4.png" alt="这是图片" title="下载git4.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit5.png" alt="这是图片" title="下载git5.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit6.png" alt="这是图片" title="下载git6.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit7.png" alt="这是图片" title="下载git7.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit8.png" alt="这是图片" title="下载git8.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit9.png" alt="这是图片" title="下载git9.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit10.png" alt="这是图片" title="下载git10.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit11.png" alt="这是图片" title="下载git11.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit12.png" alt="这是图片" title="下载git12.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit13.png" alt="这是图片" title="下载git13.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit14.png" alt="这是图片" title="下载git14.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit15.png" alt="这是图片" title="下载git15.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit16.png" alt="这是图片" title="下载git16.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit17.png" alt="这是图片" title="下载git17.png"><br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BDgit18.png" alt="这是图片" title="下载git18.png"><br>因为我电脑是已经安装了的，所以有些和新安装的可能不同，我安装时少了选择安装路径这条，要是对不上的话，可以先点next，勾选的这些东西应该是对的上的，先勾选上，只是顺序可能不一样。<br>安装成功后，打开git bash，右键桌面也有。<br>输入：git<br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E8%BE%93%E5%85%A5git.png" alt="这是图片" title="输入git"><br>回车得到下图<br><img src="/images/%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E5%92%8C%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98/%E8%BE%93%E5%85%A5git%E7%BB%93%E6%9E%9C.png" alt="这是图片" title="输入git结果"><br>恭喜你，安装成功</p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;以下是我自己做博客的详细过程，尽量写的简单一点，希望可以帮到自己回忆&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;以下是我自己做博客的详细过程，尽量写的简单一点，希望可以帮到自己回忆&lt;br&gt;博客框架版本:hexo 6.3.0&lt;br&gt;主题:next &lt;/p&gt;</summary>
     
     
     
